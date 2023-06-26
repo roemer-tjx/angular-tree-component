@@ -1,6 +1,6 @@
 # angular tree component
-This is a fork of [@circlon/angular-tree-component](https://github.com/CirclonGroup/angular-tree-component).
-As it seems that they abandoned the project I decided to do some development on it and make it support Ivy and upper versions of Angular.
+This is a fork of [@circlon/angular-tree-component](https://github.com/CirclonGroup/angular-tree-component). 
+Since it appears that the original project has been abandoned, I have decided to take on its development and ensure compatibility with Ivy and newer versions of Angular.
 ## Getting started
 
 Install `angular-tree-component`:
