@@ -3,10 +3,9 @@
     "baseUrl": ".",
     "module": "es2020",
     "moduleResolution": "node",
-    "target": "es2015",
+    "target": "es2020",
     "outDir": "/dist/out-tsc",
     "allowSyntheticDefaultImports": true,
-    "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "inlineSourceMap": true,
     "inlineSources": true,
@@ -33,6 +32,7 @@
   "buildOnSave": false,
   "angularCompilerOptions": {
     "skipTemplateCodegen": true,
-    "enableIvy": true
+    "enableIvy": true,
+    "compilationMode": "partial"
   }
 }
