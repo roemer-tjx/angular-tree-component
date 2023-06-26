@@ -40,8 +40,8 @@
     "clean:all": "npm run clean:dist && rimraf node_modules && npm cache clean",
     "lint": "tslint lib/**/*.ts",
     "prepublish:lib:win": "npm run build:lib && npm run copy:files:win",
-    "start:example-app": "ng serve",
-    "start:example-app:es5": "ng serve --configuration=es5",
+    "start:example-app": "ng serve example-app",
+    "start:example-app:es5": "ng serve example-app --configuration=es5",
     "start:docs-app": "ng serve --project=docs-app",
     "build:docs-app": "ng build docs-app",
     "example:cli:build": "npm run build && cd example/cli && npm install && cp -rf ../../dist node_modules/angular-tree-component/ && cp src/index.build.html src/index.html && ./node_modules/.bin/ng build --aot && cp src/index.dev.html src/index.html && mkdir -p 500tech/angular-tree-component/master/example/cli/ && cp -rf dist 500tech/angular-tree-component/master/example/cli/",
@@ -62,6 +62,7 @@
     "@angular/cdk": "14.2.7",
     "@angular/forms": "^14.3.0",
     "@angular/material": "14.2.7",
+    "core-js": "^3.31.0",
     "mobx": "~4.14.1"
   },
   "devDependencies": {
