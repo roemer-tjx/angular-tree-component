@@ -1,6 +1,6 @@
 {
   "name": "@ali-hm/angular-tree-component",
-  "version": "12.0.1",
+  "version": "12.0.4",
   "description": "A simple yet powerful tree component for Angular 14+",
   "author": "ali-hm",
   "homepage": "https://github.com/ali-hm/angular-tree-component",
@@ -8,26 +8,16 @@
   "keywords": [
     "ng",
     "angular",
-    "ng2",
-    "angular2",
     "tree",
     "treeview",
     "tree-view",
-    "angular2-tree",
     "angular-tree",
     "angular tree",
-    "angular2 tree",
-    "ng2-tree",
-    "ng2tree",
-    "ng2 tree",
     "ngtree",
     "ng-tree",
     "angular-treeview",
-    "angular2-treeview",
     "angular-tree-component",
-    "angular tree component",
-    "angular2-tree-component",
-    "angular2 tree component"
+    "angular tree component"
   ],
   "scripts": {
     "lint:lib": "ng lint angular-tree-component",

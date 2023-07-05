@@ -23,7 +23,7 @@ export class AppModule {}
 Add css to `styles.scss` or include in `angular.json`:
 
 ```
-@import '../node_modules/@ali-hm/angular-tree-component/css/angular-tree-component.css';
+@import '@ali-hm/angular-tree-component/css/angular-tree-component.css';
 ```
 
 ## Docs, Demos & More

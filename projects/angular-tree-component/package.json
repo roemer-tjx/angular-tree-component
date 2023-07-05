@@ -1,6 +1,6 @@
 {
   "name": "@ali-hm/angular-tree-component",
-  "version": "12.0.1",
+  "version": "12.0.4",
   "description": "A simple yet powerful tree component for Angular 14+",
   "author": "ali-hm",
   "homepage": "https://github.com/ali-hm/angular-tree-component",
@@ -13,30 +13,20 @@
   "keywords": [
     "ng",
     "angular",
-    "ng2",
-    "angular2",
     "tree",
     "treeview",
     "tree-view",
-    "angular2-tree",
     "angular-tree",
     "angular tree",
-    "angular2 tree",
-    "ng2-tree",
-    "ng2tree",
-    "ng2 tree",
     "ngtree",
     "ng-tree",
     "angular-treeview",
-    "angular2-treeview",
     "angular-tree-component",
-    "angular tree component",
-    "angular2-tree-component",
-    "angular2 tree component"
+    "angular tree component"
   ],
   "peerDependencies": {
-    "@angular/common": ">=11.0.0",
-    "@angular/core": ">=11.0.0",
+    "@angular/common": ">=14.0.0",
+    "@angular/core": ">=14.0.0",
     "mobx": ">=4.14.1"
   },
   "dependencies": {
@@ -44,5 +34,6 @@
     "tslib": "^2.0.0"
   },
   "devDependencies": {
-  }
+  },
+  "exports": { "./css/angular-tree-component.css": { "style": "./css/angular-tree-component.css" } }
 }
