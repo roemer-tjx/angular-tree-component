@@ -65,7 +65,7 @@ export class TreeNode implements ITreeNode {
   }
   get isCollapsed(): boolean { return !this.isExpanded; }
   get isLeaf(): boolean { return !this.hasChildren; }
-  get isRoot(): boolean { return this.parent.data.virtual; }
+  get isRoot(): boolean { return this.parent?.data.virtual; }
   get realParent(): TreeNode { return this.isRoot ? null : this.parent; }
 
   // proxy functions:
